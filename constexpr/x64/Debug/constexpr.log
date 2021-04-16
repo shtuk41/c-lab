@@ -1,0 +1,7 @@
+﻿  pch.cpp
+  constexpr.cpp
+c:\users\shtuk\desktop\files\c++lab\constexpr\constexpr.cpp(34): warning C4101: 'arr_1': unreferenced local variable
+c:\users\shtuk\desktop\files\c++lab\constexpr\constexpr.cpp(49): warning C4101: 'arr_6': unreferenced local variable
+c:\users\shtuk\desktop\files\c++lab\constexpr\constexpr.cpp(36): warning C4101: 'arr_2': unreferenced local variable
+c:\users\shtuk\desktop\files\c++lab\constexpr\constexpr.cpp(47): warning C4101: 'arr_4': unreferenced local variable
+  constexpr.vcxproj -> C:\Users\shtuk\Desktop\Files\C++Lab\x64\Debug\constexpr.exe

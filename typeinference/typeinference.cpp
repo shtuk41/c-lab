@@ -68,7 +68,7 @@ int main() {
 	//decltype
 
 	auto x = 1;
-	auto y = 2;
+	auto y = 2.0;
 
 	decltype(x + y) z;
 
@@ -78,6 +78,8 @@ int main() {
 		std::cout << "type x == float" << std::endl;
 	if (std::is_same<decltype(x), decltype(z)>::value)
 		std::cout << "type z == type x" << std::endl;
+	if (std::is_same<decltype(z), double>::value)
+		std::cout << "type z == double" << std::endl;
 
 	auto r = add<int, int>(4, 3);
 

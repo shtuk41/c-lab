@@ -50,10 +50,7 @@ int main()
 	// 1, 1, 2, 3, 5, 8, 13, 21, 34, 55
 	std::cout << fibonacci(10) << std::endl;
 
-
-
-
-    std::cout << "Hello World!\n"; 
+	std::cout << "Hello World!\n"; 
 
 	system("pause");
 }

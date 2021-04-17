@@ -1,0 +1,2 @@
+﻿  oo_override.cpp
+c:\users\shtuk\desktop\files\c++lab\oo_override\oo_override.cpp(12): error C3668: 'SubClass::foo': method with override specifier 'override' did not override any base class methods

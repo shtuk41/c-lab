@@ -1,0 +1,5 @@
+﻿  oo_final.cpp
+c:\users\shtuk\desktop\files\c++lab\oo_final\oo_final.cpp(12): error C3246: 'SubClass2': cannot inherit from 'SubClass1' as it has been declared as 'final'
+  c:\users\shtuk\desktop\files\c++lab\oo_final\oo_final.cpp(10): note: see declaration of 'SubClass1'
+c:\users\shtuk\desktop\files\c++lab\oo_final\oo_final.cpp(15): error C3248: 'Base::foo': function declared as 'final' cannot be overridden by 'SubClass3::foo'
+  c:\users\shtuk\desktop\files\c++lab\oo_final\oo_final.cpp(8): note: see declaration of 'Base::foo'

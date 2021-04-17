@@ -8,7 +8,7 @@
 
 int main()
 {
-	std::vector<int> vec = { 1,2,3,4 };
+	std::vector<int> vec = { 1,2,3, 2, 4 };
 
 	// since c++17, can be simplified by using `auto`
 	const std::vector<int>::iterator itr = std::find(vec.begin(), vec.end(), 2);
@@ -16,6 +16,9 @@ int main()
 	{
 		*itr = 3;
 	}
+
+	for (std::vector<int>::iterator element = vec.begin(); element != vec.end(); ++element)
+		std::cout << *element << std::endl;
 
 	if (const std::vector<int>::iterator itr = std::find(vec.begin(), vec.end(), 3); itr != vec.end()) 
 	{

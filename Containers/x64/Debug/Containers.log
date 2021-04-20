@@ -1,0 +1,4 @@
+﻿  Containers.cpp
+c:\users\shtuk\desktop\files\c++lab\containers\containers.cpp(92): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\shtuk\desktop\files\c++lab\containers\containers.cpp(93): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Containers.vcxproj -> C:\Users\shtuk\Desktop\Files\C++Lab\x64\Debug\Containers.exe
